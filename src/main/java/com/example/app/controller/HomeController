@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/user")
     public String getUser() {
-        return "Hello, Karteek.";
+        return "Hello, Karteek. I am just updating this line of script to see if Jenkins is picking the latest file.";
     }
 
 }
